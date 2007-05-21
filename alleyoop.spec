@@ -1,6 +1,6 @@
 %define	name	alleyoop
-%define version 0.9.2
-%define release %mkrel 3
+%define version 0.9.3
+%define release %mkrel 1
 %define	Summary	Graphical frontend to Valgrind memory checker
 
 Summary:	%{Summary}
