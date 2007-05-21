@@ -20,7 +20,8 @@ BuildRequires:	libgnomeui2-devel
 BuildRequires:	libglade2.0-devel
 BuildRequires:	valgrind
 # it checks for editors
-BuildRequires:	emacs xemacs vim-X11
+# (saispo) not needed
+#BuildRequires:	emacs xemacs vim-X11
 Requires(pre):	GConf2 >= 2.3.3
 Requires:	valgrind
 
