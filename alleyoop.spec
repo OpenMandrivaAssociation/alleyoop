@@ -67,7 +67,7 @@ Exec=%{_bindir}/%{name}
 Icon=development_tools_section
 Terminal=false
 Type=Application
-Categories=Development;Debugger
+Categories=Development;Debugger;
 
 EOF
 
