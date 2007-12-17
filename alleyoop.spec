@@ -10,7 +10,6 @@ Release:	%{release}
 License:	GPL
 Group:		Development/Other
 URL:		http://alleyoop.sourceforge.net/
-Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 Source0:	%{name}-%{version}.tar.bz2
 Patch0:		alleyoop-0.8.2-fix-build.patch.bz2
