@@ -43,19 +43,7 @@ export PATH="$PATH:/usr/X11R6/bin"
 rm -rf %{buildroot}
 GCONF_DISABLE_MAKEFILE_SCHEMA_INSTALL=1 %{makeinstall_std}
 
-mkdir -p %{buildroot}%{_menudir}
 
-cat > %{buildroot}%{_menudir}/%{name} << EOF
-?package(%name): needs="x11" \
-        section="More Applications/Development/Tools" \
-        title="Alleyoop memory checker" \
-        longtitle="%{Summary}" \
-        command="%{_bindir}/%{name}" \
-        icon="development_tools_section.png" \
-        startup_notify="true" \
-        multiple_files="true" \
-        xdg="true"
-EOF
 
 
 mkdir -p %{buildroot}%{_datadir}/applications
@@ -91,5 +79,4 @@ rm -rf %{buildroot}
 %doc AUTHORS ChangeLog COPYING NEWS README
 %{_sysconfdir}/gconf/schemas/*.schemas
 %{_bindir}/*
-%{_menudir}/%{name}
 %{_datadir}/applications/*
