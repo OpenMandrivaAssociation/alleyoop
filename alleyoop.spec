@@ -61,15 +61,19 @@ EOF
 
 %find_lang %{name}
 
+%if %mdkversion < 200900
 %post
 %update_menus
 %post_install_gconf_schemas %{name}
+%endif
 
 %preun
 %preun_uninstall_gconf_schemas %{name}
 
+%if %mdkversion < 200900
 %postun
 %clean_menus
+%endif
 
 %clean
 rm -rf %{buildroot}
