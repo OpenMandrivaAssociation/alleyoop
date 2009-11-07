@@ -18,6 +18,7 @@ BuildRequires:	binutils-devel
 BuildRequires:	libgnomeui2-devel
 BuildRequires:	libglade2.0-devel
 BuildRequires:	valgrind
+BuildRequires:	intltool
 # it checks for editors
 # (saispo) not needed
 #BuildRequires:	emacs xemacs vim-X11
