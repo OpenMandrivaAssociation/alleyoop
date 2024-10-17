@@ -4,7 +4,7 @@ Version:	0.9.8
 Release:	3
 License:	GPLv2+
 Group:		Development/Other
-URL:		http://alleyoop.sourceforge.net/
+URL:		https://alleyoop.sourceforge.net/
 
 Source0:	https://sourceforge.net/projects/alleyoop/files/alleyoop/alleyoop-0.9.8/%{name}-%{version}.tar.gz
 
