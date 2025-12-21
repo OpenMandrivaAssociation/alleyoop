@@ -8,6 +8,11 @@ URL:		https://alleyoop.sourceforge.net/
 
 Source0:	https://sourceforge.net/projects/alleyoop/files/alleyoop/alleyoop-0.9.8/%{name}-%{version}.tar.gz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	binutils-devel
 BuildRequires:	pkgconfig(libgnomeui-2.0)
 BuildRequires:	libglade2.0-devel
